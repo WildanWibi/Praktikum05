@@ -1,4 +1,3 @@
-package Praktikum05;
 import java.util.Scanner;
 
 public class PemilihanBilangan14 {
@@ -15,6 +14,7 @@ public class PemilihanBilangan14 {
     {
         System.out.println("Angka " + angka + " termasuk bilangan ganjil");
     }
+    sc.close();
 }
     }
     

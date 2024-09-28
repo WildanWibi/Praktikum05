@@ -28,5 +28,6 @@ public static void main(String[] args) {
             break;
     }
     System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
+    sc.close();
 }
 }

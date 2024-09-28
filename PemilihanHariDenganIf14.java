@@ -1,4 +1,3 @@
-package Praktikum05;
 import java.util.Scanner;
 
 public class PemilihanHariDenganIf14 {
@@ -18,5 +17,6 @@ public class PemilihanHariDenganIf14 {
         }
 
         System.out.println(jenisHari);
+        input.close();
     }
 }

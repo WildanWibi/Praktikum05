@@ -1,15 +1,13 @@
-package Praktikum05;
 import java.util.Scanner;
-
 public class PemilihanOperator14  {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan nilai a: ");
-        int a = scanner.nextInt();
+        int a = sc.nextInt();
         System.out.print("Masukkan operator (+, -, *, /): ");
-        char operator = scanner.next().charAt(0);
+        char operator = sc.next().charAt(0);
         System.out.print("Masukkan nilai b: ");
-        int b = scanner.nextInt();
+        int b = sc.nextInt();
 
         int hasil = 0;
 
@@ -27,6 +25,7 @@ public class PemilihanOperator14  {
 
         if (operator == '+' || operator == '-' || operator == '*' || operator == '/') {
             System.out.println("Hasil " + a + " " + operator + " " + b + " = " + hasil);
+            sc.close();
         }
     }
 }
